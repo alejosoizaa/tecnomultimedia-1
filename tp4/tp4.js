@@ -1,3 +1,5 @@
+//https://youtu.be/pD9qxuK_dYk
+//Alejo Soiza
 let estado = 0;
 let personajeX;
 let personajeY;
@@ -66,9 +68,9 @@ function estado0() {
 
 //juego
 function estado1() {
-  background(0);
+  background(0,57,2);
     rectMode(CENTER);
-    fill(100, 100, 100);
+    fill(108, 58, 24);
     rect(300, 590, 600, 30);
     dibujarpelotas();
     personaje();
@@ -81,7 +83,7 @@ function estado2() {
   background(142, 19, 21);
     textAlign(CENTER, CENTER);
     textSize(40);
-    text("Perdiste las bananas cayeron", 300, 300);
+    text(" Perdiste \n Perdiste \n Dejaste caer las bananas ", 300, 250);
     //dibuja el botón de reinicio
     fill(126, 56, 50);
     rectMode(CENTER);
